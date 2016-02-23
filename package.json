@@ -1,3 +1,32 @@
 {
-    "private": true
+    "name": "html5-video-error-translator",
+    "description": "Translate HTML5 <video> error code",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "piecioshka.pl"
+    },
+    "keywords": [
+        "html5",
+        "video",
+        "error",
+        "translator",
+        "description",
+        "code",
+        "string",
+        "normalize",
+        "translate"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/piecioshka/html5-video-error-translator.git"
+    },
+    "files": [
+        "index.js",
+        "package.json",
+        "README.md"
+    ],
+    "main": "index.js"
 }
