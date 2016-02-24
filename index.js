@@ -4,10 +4,14 @@ module.exports = {
     /**
      * Return error description, when put HTML5 Video error object.
      *
-     * @param {Object} evt
+     * @param {Object} evt Event object, which is payload of `onerror` event on HTML5 Video tag.
      * @returns {string}
      */
     translate: function (evt) {
+        if (!evt || !evt.target || !evt.target.error || !evt.target.error.code) {
+            return 'TRANSLATION_FAILED';
+        }
+
         switch (evt.target.error.code) {
             case evt.target.error.MEDIA_ERR_ABORTED:
                 return 'MEDIA_ERR_ABORTED';

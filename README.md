@@ -23,3 +23,11 @@ video.onerror = function (evt) {
     console.log(translate(evt);
 }
 ```
+
+## Test
+
+Use `Jasmine` for unit test:
+
+```
+npm test
+```
