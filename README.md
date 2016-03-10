@@ -21,7 +21,7 @@ $video.on('error', function (evt) {
 // Pure
 video.onerror = function (evt) {
     console.log(translate(evt);
-}
+};
 ```
 
 ## Test
