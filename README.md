@@ -5,13 +5,13 @@
 ## Install 
 
 ```
-npm install html5-video-error-translator
+$ npm install html5-video-error-translator
 ```
 
 ## Usage
 
 ```javascript
-var translator = require('html5-video-error-translator').translate;
+var translate = require('html5-video-error-translator').translate;
 
 // jQuery
 $video.on('error', function (evt) {
@@ -24,10 +24,14 @@ video.onerror = function (evt) {
 };
 ```
 
-## Test
+## Unit tests
 
 Use `Jasmine` for unit test:
 
 ```
-npm test
+$ npm test
 ```
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2016

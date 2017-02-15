@@ -1,7 +1,7 @@
 {
     "name": "html5-video-error-translator",
     "description": "Translate HTML5 <video> error code",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
@@ -9,7 +9,7 @@
         "url": "http://piecioshka.pl"
     },
     "scripts": {
-        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/support/jasmine.json"
+        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json"
     },
     "keywords": [
         "html5",
@@ -22,6 +22,9 @@
         "normalize",
         "translate"
     ],
+    "devDependencies": {
+        "jasmine": "^2.5.3"
+    },
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/piecioshka/html5-video-error-translator.git"
