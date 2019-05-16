@@ -1,11 +1,18 @@
 # html5-video-error-translator
 
-> Translate HTML5 <video> error code to string
+[![npm version](https://badge.fury.io/js/html5-video-error-translator.svg)](https://badge.fury.io/js/html5-video-error-translator)
+[![downloads count](https://img.shields.io/npm/dt/html5-video-error-translator.svg)](https://www.npmjs.com/~piecioshka)
+[![dependencies](https://david-dm.org/piecioshka/html5-video-error-translator.svg)](https://github.com/piecioshka/html5-video-error-translator)
+[![travis](https://img.shields.io/travis/piecioshka/html5-video-error-translator.svg)](https://travis-ci.org/piecioshka/html5-video-error-translator)
+[![coveralls](https://coveralls.io/repos/github/piecioshka/html5-video-error-translator/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/html5-video-error-translator?branch=master)
+[![snyk](https://snyk.io/test/github/piecioshka/html5-video-error-translator/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/html5-video-error-translator?targetFile=package.json)
 
-## Install 
+:hammer: Translate HTML5 `<video>` error code to string
 
-```
-$ npm install html5-video-error-translator
+## Install
+
+```bash
+npm install html5-video-error-translator
 ```
 
 ## Usage
@@ -26,12 +33,16 @@ video.onerror = function (evt) {
 
 ## Unit tests
 
-Use `Jasmine` for unit test:
-
+```bash
+npm test
 ```
-$ npm test
+
+## Code coverage
+
+```bash
+npm run coverage
 ```
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2016
+[The MIT License](http://piecioshka.mit-license.org) @ 2016-2019

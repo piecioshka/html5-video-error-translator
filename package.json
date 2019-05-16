@@ -6,10 +6,12 @@
     "author": {
         "name": "Piotr Kowalski",
         "email": "piecioshka@gmail.com",
-        "url": "http://piecioshka.pl"
+        "url": "https://piecioshka.pl"
     },
     "scripts": {
-        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json"
+        "test": "jasmine test/unit/*.js",
+        "coverage": "nyc npm test && nyc report --reporter=html",
+        "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
     },
     "keywords": [
         "html5",
@@ -23,7 +25,9 @@
         "translate"
     ],
     "devDependencies": {
-        "jasmine": "^2.5.3"
+        "coveralls": "^3.0.3",
+        "jasmine": "^2.5.3",
+        "nyc": "^14.1.1"
     },
     "repository": {
         "type": "git",
