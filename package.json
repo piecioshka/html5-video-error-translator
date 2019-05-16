@@ -34,6 +34,7 @@
         "url": "git+ssh://git@github.com/piecioshka/html5-video-error-translator.git"
     },
     "files": [
+        "src",
         "index.js",
         "package.json",
         "README.md"

@@ -1,7 +1,7 @@
 'use strict';
 
 var Creator = require('../helpers/event-creator');
-var translate = require('../../index').translate;
+var translate = require('../../src/').translate;
 
 describe('General', function () {
     it('should returns failed when pass not an object', function () {
