@@ -3,7 +3,6 @@
 [![npm version](https://badge.fury.io/js/html5-video-error-translator.svg)](https://badge.fury.io/js/html5-video-error-translator)
 [![downloads count](https://img.shields.io/npm/dt/html5-video-error-translator.svg)](https://www.npmjs.com/~piecioshka)
 [![travis-ci](https://api.travis-ci.com/piecioshka/html5-video-error-translator.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/html5-video-error-translator)
-[![coveralls](https://coveralls.io/repos/github/piecioshka/html5-video-error-translator/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/html5-video-error-translator?branch=master)
 [![snyk](https://snyk.io/test/github/piecioshka/html5-video-error-translator/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/html5-video-error-translator?targetFile=package.json)
 
 :hammer: Translate HTML5 `<video>` error code to string
