@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/html5-video-error-translator.svg)](https://badge.fury.io/js/html5-video-error-translator)
 [![downloads count](https://img.shields.io/npm/dt/html5-video-error-translator.svg)](https://www.npmjs.com/package/html5-video-error-translator)
 [![license](https://img.shields.io/npm/l/html5-video-error-translator.svg)](https://www.npmjs.com/package/html5-video-error-translator)
-[![travis-ci](https://api.travis-ci.com/piecioshka/html5-video-error-translator.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/html5-video-error-translator)
+[![github-ci](https://github.com/piecioshka/html5-video-error-translator/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/html5-video-error-translator/actions/workflows/testing.yml)
 
 :hammer: Translate HTML5 `<video>` error code to string
 
@@ -19,15 +19,12 @@ npm install html5-video-error-translator
 ```javascript
 var translate = require('html5-video-error-translator').translate;
 
-// jQuery
-$video.on('error', function (evt) {
+var videoElement = document.querySelector('video#my-video');
+
+// Native
+videoElement.addEventListener('error', function (evt) {
     console.log(translate(evt);
 });
-
-// Pure
-video.onerror = function (evt) {
-    console.log(translate(evt);
-};
 ```
 
 ## Unit tests
