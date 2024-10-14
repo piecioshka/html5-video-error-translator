@@ -10,7 +10,7 @@
     },
     "scripts": {
         "test": "jasmine test/unit/*.js",
-        "coverage": "nyc npm test && nyc report --reporter=html"
+        "coverage": "nyc npm run test && nyc report --reporter=html"
     },
     "keywords": [
         "html5",
