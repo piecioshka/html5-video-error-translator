@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/html5-video-error-translator.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/html5-video-error-translator/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/html5-video-error-translator/actions/workflows/testing.yml)
 
-:hammer: Translate HTML5 `<video>` error code to string
+🔨 Translate HTML5 `<video>` error code to string
 
 ## Install
 
