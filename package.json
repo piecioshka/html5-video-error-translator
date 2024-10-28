@@ -1,7 +1,7 @@
 {
     "name": "html5-video-error-translator",
     "description": "🔨 Translate HTML5 <video> error code",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
