@@ -12,17 +12,6 @@
         "test": "jasmine test/unit/*.js",
         "coverage": "nyc npm run test && nyc report --reporter=html"
     },
-    "keywords": [
-        "html5",
-        "video",
-        "error",
-        "translator",
-        "description",
-        "code",
-        "string",
-        "normalize",
-        "translate"
-    ],
     "devDependencies": {
         "jasmine": "^3.10.0",
         "nyc": "^15.1.0"
@@ -36,6 +25,17 @@
         "index.js",
         "package.json",
         "README.md"
+    ],
+    "keywords": [
+        "html5",
+        "video",
+        "error",
+        "translator",
+        "description",
+        "code",
+        "string",
+        "normalize",
+        "translate"
     ],
     "main": "index.js"
 }
