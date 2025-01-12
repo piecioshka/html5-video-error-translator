@@ -42,4 +42,4 @@ npm run coverage
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2016-2019
+[The MIT License](https://piecioshka.mit-license.org) @ 2016
