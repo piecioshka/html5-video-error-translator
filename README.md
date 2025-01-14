@@ -28,18 +28,6 @@ videoElement.addEventListener('error', function (evt) {
 });
 ```
 
-## Unit tests
-
-```bash
-npm test
-```
-
-## Code coverage
-
-```bash
-npm run coverage
-```
-
 ## License
 
 [The MIT License](https://piecioshka.mit-license.org) @ 2016
