@@ -9,13 +9,13 @@
 
 🔨 Translate HTML5 `<video>` error code to string
 
-## Install
+## Usage
+
+Installation:
 
 ```bash
 npm install html5-video-error-translator
 ```
-
-## Usage
 
 ```javascript
 var translate = require('html5-video-error-translator').translate;
