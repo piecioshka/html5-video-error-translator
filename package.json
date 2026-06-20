@@ -24,7 +24,8 @@
         "src",
         "index.js",
         "package.json",
-        "README.md"
+        "README.md",
+        "LICENSE"
     ],
     "keywords": [
         "html5",

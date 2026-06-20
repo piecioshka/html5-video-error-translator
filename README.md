@@ -30,4 +30,4 @@ videoElement.addEventListener('error', function (evt) {
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2016
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
